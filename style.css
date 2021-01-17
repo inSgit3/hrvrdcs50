@@ -1,0 +1,94 @@
+h1 {
+  color: Blue;
+  font-size: 150%;
+}
+
+.one {
+  flex-grow: 3;
+  background-color: magenta;
+}
+
+.two {
+  flex-grow: 3;
+  background-color: gray;
+
+}
+
+.three {
+  flex-grow: 3;
+  background-color: yellow;
+}
+
+.container {
+  border: solid 2px green;
+  display: flex;
+}
+
+.tik {
+  background-color: green;
+  border: solid 2px black;
+  border-radius: 5px;
+  font-size: 15;
+
+  /* shu razmer ishlamayapti */
+  font-family: Redressed;
+}
+
+.t {
+  font-size: 18;
+
+  /* shu razmer ishlamayapti */
+  font-family: Hanalei Fill;
+  background-color: solid blue;
+}
+
+.tik:hover {
+  background-color: #0000ff;
+}
+
+.d {
+  border: solid 40px #20F89f;
+  padding: 20px 20px 20px 20px;
+  background-color: magenta;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.g {
+  border: solid 10px #917131;
+  display: flex;
+  flex-direction: column;
+}
+
+.chick {
+  background-color: purple;
+  height: 50px;
+  width: 300px;
+  padding: 5px;
+  margin: 20px;
+  color: magenta;
+  text-align: left;
+  font-family: Redressed;
+}
+
+table,
+td,
+th {
+  border: solid 1px blue;
+  background-color: #45f545;
+  padding: 10px;
+  border-collapse: collapse;
+  margin: 20px;
+
+
+}
+
+#king {
+  font-family: Hanalei Fill;
+  color: #ff0077;
+}
+
+
+#king.active {
+  background-color: #00ff44;
+}
